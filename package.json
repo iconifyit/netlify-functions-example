@@ -31,6 +31,15 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "axios": "^0.19.2",
+    "btoa": "^1.2.1",
+    "dropbox": "^5.2.0",
+    "file-system": "^2.2.2",
+    "fs-extra": "^9.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.9.0",
+    "uuidv4": "^6.2.0"
   }
 }
