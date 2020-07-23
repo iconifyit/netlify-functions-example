@@ -1,12 +1,12 @@
 const
     fs              = require('file-system'),
-    path            = require("path"),
-    dropbox         = require("dropbox"),
-    { PDFDocument, StandardFonts, rgb } = require('pdf-lib'),
-    Dropbox         = require('dropbox').Dropbox,
-    $fetch          = require('isomorphic-fetch'),
-    axios           = require('axios').default,
-    btoa            = require('btoa')
+    // path            = require("path"),
+    dropbox         = require("dropbox")
+    // { PDFDocument, StandardFonts, rgb } = require('pdf-lib'),
+    // Dropbox         = require('dropbox').Dropbox,
+    // $fetch          = require('isomorphic-fetch'),
+    // axios           = require('axios').default,
+    // btoa            = require('btoa')
 
 const experimental = () => {
   const
@@ -80,7 +80,7 @@ const experimental = () => {
 
 exports.handler = function(event, context, callback) {
 
-  experimental();
+  // experimental();
 
   callback(null, {
     statusCode: 200,
